@@ -1,0 +1,52 @@
+/* add your CSS here */
+#container {
+  border: 1px solid #DCDCDC;
+  box-shadow: 10px 10px 8px #888888;
+  width: 350px;
+  padding: 5px 5px 25px 5px;
+  
+}
+h1 {
+  padding-left: 25px;
+  
+}
+.animal-info {
+  border: 1px solid #DCDCDC;
+  width: 280px;
+  margin-left: 25px;
+  padding: 10px 5px 5px 10px;
+  
+}
+
+img {
+  width: 300px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+#interesting-fact {
+  font-style: italic;
+  
+}
+
+span {
+  font-weight: bold;
+  font-style: normal;
+}
+#facts {
+  width: 280px;
+  position: absolute;
+  left: 5px;
+  
+  
+}
+li {
+  
+  list-style: none;
+  font-style: italic;
+}
+
+#summary {
+ margin-top: 130px;
+  text-align: left;
+  width: 100%;
+}
