@@ -1,0 +1,225 @@
+*, html {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+
+	
+}
+
+.cards {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100vh;
+	
+	
+}
+.card-layout {
+	
+	display: none;	
+	border-style: solid;
+	border-color: lightgray;
+	border-width: thin;
+	width: 300px;
+	height: 512px;
+	font-size: 16px;
+	border-radius: 15px;
+	margin: 50px auto;
+	box-shadow: -2px 2px 20px darkgrey;
+	animation: animated-move .5s linear;
+	animation-fill-mode: backwards;
+	
+}
+
+/*animation*/
+@keyframes animated-move {
+	
+	0% {transform: translateX(-30%)}
+	100% {transform: translateX(0%)}
+	
+	
+	
+}
+
+.card-1 {
+	display: block;
+}
+
+.char-img {
+	
+	background-image: url(https://i.ibb.co/zfB0wN3/card-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	
+	
+	
+}
+
+.char-img img {
+	
+	position: relative;
+	right: 70px;
+	top: -65px;
+
+
+}
+.card-body {
+	
+	text-align: center;
+/*	padding: 0 20px;*/
+	
+	
+}
+
+.card-body p:first-of-type{
+	
+	color: #EC9B3B;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-top: 40px;
+	font-size: 14px;
+	
+}
+
+.card-body p:last-of-type {
+	
+/*	font-size: 14px;*/
+	padding: 0 20px;
+	margin: 20px auto;
+	color: gray;
+	font-size: 15px;
+}
+
+.card-stats {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #EC9B3B;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+	
+	
+}
+.strength, .speed, .cost {
+	
+
+	width: 100px;
+	height: 100px;
+	
+		
+}
+
+.strength, .speed {
+	
+	border-right-style: solid;
+	border-right-color: #BA802C;
+	border-right-width: thin;
+}
+
+.features {
+	
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	top: 25px;
+
+	
+}
+
+.features p:first-of-type {
+	
+	font-weight: bolder;
+	color: white;
+	font-size: 24px;
+	padding-bottom: 10px;
+	
+}
+
+.features p:last-of-type {
+	
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+
+/*Style for card-2*/
+
+.card-2 {
+	
+/*	transform: translate(-120%);*/
+	
+}
+
+
+.card-2 .char-img img {
+	
+	top: -30px;
+	right: 15px;
+	height: 285px;
+	
+}
+
+.card-2 .card-stats {
+	
+	background-color: #4FACFF;
+}
+
+.card-2 .strength, .card-2 .speed {
+	
+	border-right-color: #3388d4;
+	
+}
+
+.card-3 {
+	
+/*	transform: translate(-120%);*/
+
+}
+
+.card-3 .char-img img {
+	
+	top: -25px;
+	right: 20px;
+	height: 300px;
+	
+}
+
+.card-3 .card-stats {
+	
+	background-color: #78ad29;
+}
+
+.card-3 .strength, .card-3  .speed {
+	
+	border-right-color: #6c9e21;
+	
+}
+
+
+.fa-chevron-circle-left {
+	
+	margin: 300px 0 300px 430px;
+}
+
+.fa-chevron-circle-right {
+	
+	margin: 300px 430px 300px 0;
+}
+
+.fas {
+	
+	color: darkgray;
+	font-size: 20px;
+	cursor: pointer;
+}
